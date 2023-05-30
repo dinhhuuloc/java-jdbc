@@ -1,11 +1,13 @@
-## MySql
+## JDBC Connection
 
-Driver Class : com.mysql.cj.jdbc.Driver
-	DriverManager.registerDriver(new com.mysql.jdbc.Driver());
-	String url = "jdbc:mysql://localhost:3306/ontap";
+### MySql
 
-## MSSql Server
+*Driver Class : `com.mysql.cj.jdbc.Driver`* <br/>
+&nbsp; `DriverManager.registerDriver(new com.mysql.cj.jdbc.Driver());` <br/>
+&nbsp; `String url = "jdbc:mysql://localhost:3306/ontap";`
 
-Driver Class : com.microsoft.sqlserver.jdbc.SQLServerDriver
-	DriverManager.registerDriver(new com.microsoft.sqlserver.jdbc.SQLServerDriver());
-	String url = "jdbc:sqlserver://localhost:1433/database=ontap;encrypt=true;trustServerCertificate=true;";
+### MSSql Server
+
+*Driver Class : `com.microsoft.sqlserver.jdbc.SQLServerDriver`* <br/>
+&nbsp; `DriverManager.registerDriver(new com.microsoft.sqlserver.jdbc.SQLServerDriver());` <br/>
+&nbsp; `String url = "jdbc:sqlserver://localhost:1433/database=ontap;encrypt=true;trustServerCertificate=true";`
